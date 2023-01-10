@@ -1,6 +1,6 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Avacado Media
+# Avocado Media
 Een vacature-detailpagina voor de website van Avocado Media waar de gebruiker meer informatie kan vinden over de voorwaarden, werkzaamheden en taken.
 
 ## Beschrijving
