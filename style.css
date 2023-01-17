@@ -3,20 +3,206 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Saira:ital,wght@0,700;1,700&display=swap');
 
 :root {
-    --primary: #00DCB9;
-    --secondary: #0A192D;
-    --tertiary: #D7EBEB;
+   --primary: #00DCB9;
+   --secondary: #0A192D;
+   --tertiary: #D7EBEB;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body{
+   margin: 1.25rem; 
+   padding: 0;
+   font-family: 'Mulish', sans-serif;
+   line-height: 1.4;
+   background: white;
+   color: var(--secondary);
+}
+
+h2{
+   font-family: 'Saira', sans-serif;
+   font-size: 1.875rem;
+   margin-top: 4rem;
+}
+
+h3{
+   font-family: 'Saira', sans-serif;
+   font-size: 1.5rem;
+   margin-top: 4rem;
+}
+
+h4{
+   margin-top: 3rem;
+   margin-bottom: -1rem;
+}
+
+p{
+   font-size: 1rem;
+   line-height: 1.875rem;
+}
+
+a{
+   color: var(--secondary);
+   font-weight: bold;
+}
+
+
+img{
+   width: 100%;
+   margin-top: 4rem;
+}
+
+/* HEADER */
+
+header{
+   display: flex;
+   justify-content: space-between;
+   margin-top: -4rem;
+}
+
+header > img{
+   width: 10rem;
+   height: 5rem;
+}
+
+/* PAGE 1 index */
+
+.bg-light-blue-circle{
+   position: absolute;
+   border-radius: 50%;
+   width: 600px;
+   height: 600px;
+   background-color: var(--tertiary);
+   z-index: -1;
+   align-items: left;
+   margin: -3rem 0rem 0rem -12rem
+
+}
+
+.current-jobs >  p > a{
+   color: var(--secondary);
+   font-weight: 700;
+   transition: 0.2s;
+}
+
+.current-jobs >  p > a:hover{
+   color: var(--primary);
+   font-weight: 700;
+}
+
+.con-offer-jobs > img:hover{
+   cursor: pointer;
+   transition-duration: 0.2s;
+   transform: scale(1.1);
+}
+
+.section-badge-arrow{
+   display: flex;
+   justify-content: space-between;
+   margin-top: -1rem;
+   margin-bottom: -4rem;
+ }
+
+.badge-light-blue{
+   display: inline-flex;
+   background-color: var(--tertiary);
+   font-weight: 700;
+   font-size: 0.75rem;
+   text-transform: uppercase;
+   padding: 0.375rem 1.25rem;
+   border-radius: 1rem;
+   margin-top: 1.25rem;
+   margin-left: -2.5rem;
+}
+
+.arrow-dark-line{
+   width: 1.5rem;
+   margin-top: 2rem;
+}
+
+
+ @media (min-width:50rem) {
+   :root{
+      font-size: 18px;
+   }
+ }
+
+ /* PAGE 2 vac-frontender */
+
+ .con-top-head > p > a{
+   font-weight: 700;
+   color: var(--secondary);
  }
  
- * {
-    box-sizing: border-box;
+ .con-top-head > p > a:hover{
+   font-weight: 700;
+   color: var(--primary);
+   transition: 0.2s;
  }
- body{
-    margin: 1rem; 
-    padding: 0;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    background: white;
-    color: var(--secondary);
+
+ .con-top-head > img{
+   width: 80%;
+ }
+
+ .con-join-team > p > a{
+   color: var(--primary);
+ }
+
+ .con-join-team > p > a:hover{
+   font-weight: 700;
+   color: var(--secondary);
+   transition: 0.2s;
+ }
+
+ .con-why-us{
+   width: 100%;
+   background-color: var(--tertiary);
+   margin-top: 5rem;
+   padding: 1.5rem 0rem 4rem 0rem;
+ }
+
+ .con-process{
+   width: 100%;
+   background-color: var(--tertiary);
+   margin-top: 5rem;
+   padding: 1.5rem 0rem 4rem 0rem;
+ }
+
+ /* FORM  */
+
+ .form-labels{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 3em;
+   font-family: 'Saira', sans-serif;
+   font-size: 1.25rem;
+ }
+
+ .form-labels [type]{
+   background-color: white;
+   font-size: 1rem;
+   color: #98A2B3;
+   font-family: 'Mulish', sans-serif;
+   border: none
+ }
+
+ .form-labels [type=submit]{
+   background-color: var(--primary);
+   color: var(--secondary);
+   font-family: 'Saira', sans-serif;
+   border-radius: 25px;
+   padding: 1rem;
+   font-size: 1rem;
+   width: 10rem;
+   cursor: pointer;
+ }
+
+ .form-labels [type=submit]:hover{
+   background-color: white;
+   border: solid 3px var(--primary);
+   transition: 0.2s;
+   color: var(--primary);
  }
