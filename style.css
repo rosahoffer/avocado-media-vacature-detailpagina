@@ -1,7 +1,5 @@
 /* --GLOBAL-- */
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Saira:ital,wght@0,700;1,700&display=swap');
-
 :root {
    --primary: #00DCB9;
    --secondary: #0A192D;
@@ -13,10 +11,11 @@
 }
 
 body{
-   margin: 1.25rem; 
+   margin: 0;
    padding: 0;
    font-family: 'Mulish', sans-serif;
    line-height: 1.4;
+   font-weight: 100;
    background: white;
    color: var(--secondary);
 }
@@ -52,6 +51,10 @@ a{
 img{
    width: 100%;
    margin-top: 4rem;
+}
+
+section{
+   padding: 0rem 2rem 
 }
 
 /* HEADER */
@@ -122,13 +125,6 @@ header > img{
    margin-top: 2rem;
 }
 
-
- @media (min-width:50rem) {
-   :root{
-      font-size: 18px;
-   }
- }
-
  /* PAGE 2 vac-frontender */
 
  .con-top-head > p > a{
@@ -160,14 +156,14 @@ header > img{
    width: 100%;
    background-color: var(--tertiary);
    margin-top: 5rem;
-   padding: 1.5rem 0rem 4rem 0rem;
+   padding: 1.5rem 2rem 4rem 2rem;
  }
 
  .con-process{
    width: 100%;
    background-color: var(--tertiary);
    margin-top: 5rem;
-   padding: 1.5rem 0rem 4rem 0rem;
+   padding: 1.5rem 2rem 4rem 2rem;
  }
 
  /* FORM  */
@@ -179,14 +175,26 @@ header > img{
    gap: 3em;
    font-family: 'Saira', sans-serif;
    font-size: 1.25rem;
+   margin-top: 3rem;
+   
  }
+
+.form-labels > label{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
 
  .form-labels [type]{
    background-color: white;
    font-size: 1rem;
    color: #98A2B3;
    font-family: 'Mulish', sans-serif;
-   border: none
+   border: none;
+   border-bottom: solid 2px var(--secondary);
+   margin-top: 1.5rem;
+   padding-bottom: 1rem;
+   outline: none;
  }
 
  .form-labels [type=submit]{
@@ -206,3 +214,111 @@ header > img{
    transition: 0.2s;
    color: var(--primary);
  }
+
+ @media (min-width:45rem){
+
+   section{
+      padding: 2rem 3rem 1rem 5rem;
+   }
+  
+   h2{
+      font-size: 3rem;
+   }
+
+   h3{
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+   }
+
+   h4{
+      font-size: 1.4rem;
+   }
+
+   p{
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+   }
+
+   .con-process,.con-why-us{
+      padding: 1rem 3rem 2rem 5rem;
+   }
+}
+
+@media (min-width:60rem){
+
+   section{
+      /* background-color: #00DCB9; */
+      padding: 4rem 5rem 2rem 12rem;
+   }
+  
+   h2{
+      font-size: 4rem;
+   }
+
+   h3{
+      font-size: 3rem;
+      line-height: 4rem;
+   }
+
+   h4{
+      font-size: 1.4rem;
+   }
+
+   p{
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+   }
+
+   .con-process,.con-why-us{
+      padding: 2rem 5rem 4rem 12rem
+   }
+
+   .con-top-head > img{
+      width: 60%;
+   }
+/* 
+   .con-why-us > ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+   } */
+
+   .form-labels{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      font-size: 1.5rem;
+   }
+}
+
+@media (min-width:80rem){
+
+   section{
+      /* background-color: #00DCB9; */
+      padding: 8rem 10rem 4rem 20rem;
+   }
+  
+   h2{
+      font-size: 4rem;
+   }
+
+   h3{
+      font-size: 3rem;
+      line-height: 4rem;
+   }
+
+   h4{
+      font-size: 1.4rem;
+   }
+
+   p{
+      font-size: 1.6rem;
+      line-height: 3rem;
+   }
+
+   .con-process,.con-why-us{
+      padding: 4rem 10rem 8rem 20rem
+   }
+
+}
