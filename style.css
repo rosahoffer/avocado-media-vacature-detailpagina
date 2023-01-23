@@ -57,19 +57,6 @@ section{
    padding: 0rem 2rem 
 }
 
-/* HEADER */
-
-header{
-   display: flex;
-   justify-content: space-between;
-   margin-top: -4rem;
-}
-
-header > img{
-   width: 10rem;
-   height: 5rem;
-}
-
 
 /* PAGE 1 */
 
@@ -106,6 +93,15 @@ header > img{
 
 .con-offer-jobs{
    max-width: 30rem;
+   margin-bottom: 8rem;
+}
+
+.con-offer-jobs > h3{
+   margin-top: 4rem;
+}
+
+.con-offer-jobs > p{
+   margin-top: -1rem;
 }
 
 .con-offer-jobs > div {
@@ -114,13 +110,13 @@ header > img{
    overflow: hidden;
 }
 
-.con-offer-jobs > div > img {
+.con-offer-jobs > div > a > img {
    object-fit: cover;
    object-position: 50% 50%;
    transition: transform 0.3s ease;
 }
 
-.con-offer-jobs > div > img:hover{
+.con-offer-jobs > div > a > img:hover{
    cursor: pointer;
    object-fit: cover;
    object-position: 50% 50%;
@@ -152,12 +148,13 @@ header > img{
 }
 
 
-
 /* PAGE 2 */
 
 
-
- .con-top-head > p > a{
+.con-top-head{
+   padding-top: 3rem;
+}
+ .con-top-head > nav > a{
    font-weight: 700;
    color: var(--secondary);
  }
@@ -169,7 +166,7 @@ header > img{
  }
 
  .con-top-head > div > img{
-   width: 25rem;
+   width: 17rem;
 }
 
  .con-join-team > p > a{
@@ -194,6 +191,7 @@ header > img{
    background-color: var(--tertiary);
    margin-top: 5rem;
    padding: 1.5rem 2rem 4rem 2rem;
+
  }
 
  /* FORM  */
@@ -206,6 +204,7 @@ header > img{
    font-family: 'Saira', sans-serif;
    font-size: 1.25rem;
    margin-top: 3rem;
+   margin-bottom: 8rem;
    
  }
 
@@ -225,6 +224,7 @@ header > img{
    margin-top: 1.5rem;
    padding-bottom: 1rem;
    outline: none;
+   max-width: fit-content;
  }
 
  .form-labels [type=submit]{
@@ -243,6 +243,20 @@ header > img{
    border: solid 3px var(--primary);
    transition: 0.2s;
    color: var(--primary);
+ }
+
+ /* ANIMATIE */
+ 
+
+ .reveal{
+   position: relative;
+   transform: translateY(150px);
+   /* opacity: 0; */
+   transition: 1s all ease;
+ }
+ .reveal.active{
+   transform: translateY(0);
+   opacity: 1;
  }
 
  @media (min-width:45rem){
@@ -267,6 +281,10 @@ header > img{
    p{
       font-size: 1.25rem;
       line-height: 2.5rem;
+   }
+
+   .bg-light-blue-circle{
+      width: 100%;
    }
 
    .con-offer-jobs{
@@ -325,12 +343,14 @@ header > img{
 
    .con-offer-jobs > h3{
       font-size: 1.5rem;
-      margin-top: 4rem;
+      margin-top: 3rem;
    } 
 
    .con-offer-jobs > p{
       font-size: 1rem;
       line-height: 1.875rem;
+      margin-top: -2rem;
+   
    }
 
    .con-process,.con-why-us{
