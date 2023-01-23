@@ -245,14 +245,15 @@ section{
    color: var(--primary);
  }
 
+
  /* ANIMATIE */
  
 
  .reveal{
    position: relative;
    transform: translateY(150px);
-   /* opacity: 0; */
    transition: 1s all ease;
+   opacity: 1;
  }
  .reveal.active{
    transform: translateY(0);
