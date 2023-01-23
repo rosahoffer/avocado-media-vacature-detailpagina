@@ -70,7 +70,10 @@ header > img{
    height: 5rem;
 }
 
-/* PAGE 1 index */
+
+/* PAGE 1 */
+
+
 
 .bg-light-blue-circle{
    position: absolute;
@@ -101,15 +104,17 @@ header > img{
    font-weight: 700;
 }
 
+.con-offer-jobs{
+   max-width: 30rem;
+}
+
 .con-offer-jobs > div {
-      max-width: 100%;
-      max-height: 15rem;
-      overflow: hidden;
+   max-width: 30rem;
+   max-height: 20rem;
+   overflow: hidden;
 }
 
 .con-offer-jobs > div > img {
-   width: 100%;
-   height: 100%;
    object-fit: cover;
    object-position: 50% 50%;
    transition: transform 0.3s ease;
@@ -146,7 +151,11 @@ header > img{
    margin-top: 2rem;
 }
 
- /* PAGE 2 vac-frontender */
+
+
+/* PAGE 2 */
+
+
 
  .con-top-head > p > a{
    font-weight: 700;
@@ -159,9 +168,9 @@ header > img{
    transition: 0.2s;
  }
 
- .con-top-head > img{
-   width: 80%;
- }
+ .con-top-head > div > img{
+   width: 25rem;
+}
 
  .con-join-team > p > a{
    color: var(--primary);
@@ -260,15 +269,34 @@ header > img{
       line-height: 2.5rem;
    }
 
+   .con-offer-jobs{
+      padding: 0;
+      margin-left: 5rem;
+   }
+
+   .con-offer-jobs > h3{
+      font-size: 1.5rem;
+      margin-top: 4rem;
+   } 
+
+   .con-offer-jobs > p{
+      font-size: 1rem;
+      line-height: 1.875rem;
+   }
+
    .con-process,.con-why-us{
       padding: 1rem 3rem 2rem 5rem;
    }
+
+   .con-top-head > div > img{
+      width: 30rem;
+   }
+
 }
 
 @media (min-width:60rem){
 
    section{
-      /* background-color: #00DCB9; */
       padding: 4rem 5rem 2rem 12rem;
    }
   
@@ -290,6 +318,21 @@ header > img{
       line-height: 2.5rem;
    }
 
+   .con-offer-jobs{
+      padding: 0;
+      margin-left: 12rem;
+   }   
+
+   .con-offer-jobs > h3{
+      font-size: 1.5rem;
+      margin-top: 4rem;
+   } 
+
+   .con-offer-jobs > p{
+      font-size: 1rem;
+      line-height: 1.875rem;
+   }
+
    .con-process,.con-why-us{
       padding: 2rem 5rem 4rem 12rem
    }
@@ -297,12 +340,6 @@ header > img{
    .con-top-head > img{
       width: 60%;
    }
-/* 
-   .con-why-us > ul{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-   } */
 
    .form-labels{
       width: 100%;
@@ -311,12 +348,35 @@ header > img{
       flex-direction: row;
       font-size: 1.5rem;
    }
+
+   .con-why-us > ul{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .con-top-head > div{
+      display: grid;
+      grid-template-columns: .5fr 1fr;
+      grid-gap: 1rem;
+      margin: 10rem 0 0 -10rem;
+   }
+
+   .con-top-head > div > p{
+      order: 2;
+      margin: -5rem 5rem 0rem 5rem;
+      font-size: 1.6rem;
+   }
+
+   .con-top-head > div > img{
+      margin: auto;
+      min-width: 100%;
+      order: 1;
+   }
 }
 
 @media (min-width:80rem){
 
    section{
-      /* background-color: #00DCB9; */
       padding: 8rem 10rem 4rem 20rem;
    }
   
@@ -338,8 +398,27 @@ header > img{
       line-height: 3rem;
    }
 
+   .con-offer-jobs{
+      padding: 0;
+      margin-left: 20rem;
+   }   
+
+   .con-offer-jobs > h3{
+      font-size: 1.5rem;
+      margin-top: 3rem;
+   } 
+
+   .con-offer-jobs > p{
+      font-size: 1rem;
+      line-height: 1.875rem;
+      margin-top: -2rem;
+   }
+
    .con-process,.con-why-us{
       padding: 4rem 10rem 8rem 20rem
    }
 
+   .con-top-head > div > img{
+      width: 40rem;
+   }
 }
