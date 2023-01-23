@@ -60,8 +60,6 @@ section{
 
 /* PAGE 1 */
 
-
-
 .bg-light-blue-circle{
    position: absolute;
    border-radius: 50%;
@@ -150,7 +148,6 @@ section{
 
 /* PAGE 2 */
 
-
 .con-top-head{
    padding-top: 3rem;
 }
@@ -159,7 +156,7 @@ section{
    color: var(--secondary);
  }
  
- .con-top-head > p > a:hover{
+ .con-top-head > nav > a:hover{
    font-weight: 700;
    color: var(--primary);
    transition: 0.2s;
@@ -248,7 +245,6 @@ section{
 
  /* ANIMATIE */
  
-
  .reveal{
    position: relative;
    transform: translateY(150px);
@@ -259,6 +255,9 @@ section{
    transform: translateY(0);
    opacity: 1;
  }
+
+
+ /* BREAKPOINTS */
 
  @media (min-width:45rem){
 
