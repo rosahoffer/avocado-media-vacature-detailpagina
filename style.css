@@ -220,7 +220,7 @@ section{
 
  .image-list a {
    display: flex;
-   min-width: 45vw;
+   min-width: 80vw;
    margin-right: 10px;
  }
 
@@ -398,7 +398,6 @@ section{
       font-size: 1rem;
       line-height: 1.875rem;
       margin-top: -2rem;
-   
    }
 
    .con-process,.con-why-us{
@@ -407,18 +406,6 @@ section{
 
    .con-top-head > img{
       width: 60%;
-   }
-
-   .form-labels{
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      font-size: 1.5rem;
-   }
-
-   .con-why-us > ul{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
    }
 
    .con-top-head > div{
@@ -445,6 +432,22 @@ section{
 
    .con-top-head > div > div > a{
       font-size: 1.25rem;;
+   }
+
+   .con-why-us > ul{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .image-list a {
+      min-width: 50vw;
+   }
+
+    .form-labels{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      font-size: 1.5rem;
    }
 }
 
@@ -509,6 +512,10 @@ section{
 
    .con-top-head > div > div > a{
       font-size: 1.25rem;;
+   }
+
+   .image-list a {
+      min-width: 40vw;
    }
 
 }
