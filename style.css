@@ -166,6 +166,30 @@ section{
    width: 17rem;
 }
 
+.con-top-head> div > div > p{
+   padding-bottom: 2rem;
+}
+
+.con-top-head > div > div > a{
+   background-color: white;
+   color: var(--secondary);
+   font-family: 'Saira', sans-serif;
+   font-weight: 100;
+   border-radius: 50px;
+   border: solid  2px var(--secondary);
+   font-size: 1rem;
+   padding: 1rem;
+   width: 10rem;
+   cursor: pointer;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+.con-top-head > div > div > a:hover{
+   background-color: var(--secondary);
+   color: white;
+}
+
  .con-join-team > p > a{
    color: var(--primary);
  }
@@ -376,12 +400,12 @@ section{
 
    .con-top-head > div{
       display: grid;
-      grid-template-columns: .5fr 1fr;
+      grid-template-columns: 1fr 1fr ;
       grid-gap: 1rem;
       margin: 10rem 0 0 -10rem;
    }
 
-   .con-top-head > div > p{
+   .con-top-head > div > div{
       order: 2;
       margin: -5rem 5rem 0rem 5rem;
       font-size: 1.6rem;
@@ -391,6 +415,10 @@ section{
       margin: auto;
       min-width: 100%;
       order: 1;
+   }
+
+   .con-top-head > div > div > a{
+      font-size: 1.25rem;;
    }
 }
 
@@ -440,5 +468,9 @@ section{
 
    .con-top-head > div > img{
       width: 40rem;
+   }
+
+   .con-top-head > div > div > a{
+      font-size: 1.6rem;;
    }
 }
