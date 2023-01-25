@@ -17,7 +17,8 @@ Een vacature-detailpagina voor de website van Avocado Media waar de gebruiker me
 
 De huisstijl elementen zijn op de juiste manier toegepast en de pagina bevat een formulier waar de gebruiker kan solliciteren op de desbetreffende functie. Ook is de pagina volledig responsive.
 
-![tablet_laptop_and_smartphone_mockup_avocadomedia](https://user-images.githubusercontent.com/112861375/214542215-82ed415c-6666-4c5e-8b0d-204786011084.png)
+![tablet_laptop_and_smartphone_mockup_avocadomedia](https://user-images.githubusercontent.com/112861375/214558395-d8f02a31-2d93-43a2-90d3-3f0bfca0b640.png)
+
 
 ## De opdrachtgever
 
