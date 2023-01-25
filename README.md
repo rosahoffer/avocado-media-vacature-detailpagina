@@ -1,17 +1,32 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Avocado Media
+
 Een vacature-detailpagina voor de website van Avocado Media waar de gebruiker meer informatie kan vinden over de voorwaarden, werkzaamheden en taken.
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+
+**De website bestaat uit:**
+  - Vacature overzichtspagina
+  - Titel
+  - Korte intro
+  - Omschrijving
+  - Wat zoeken wij
+  - Wie zijn wij
+  - Wat bieden wij
+  - Sfeerimpressie
+  - Sollicitatieproces
+
+De huisstijl elementen zijn op de juiste manier toegepast en de pagina bevat een formulier waar de gebruiker kan solliciteren op de desbetreffende functie. Ook is de pagina volledig responsive.
+
 ![phone-mockup-avocado-media](https://user-images.githubusercontent.com/112861375/213214284-97f4af07-dca2-41f2-8d73-c8e51fccacd7.png)
 
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## De opdrachtgever
+
+Avocado Media bouwt digitale producten die spatten van ambitie. Die werk uit handen neemt en jouw doelgroep verbindt. Maatwerk 
+websites en online platformen voor educatie-, zorg- en cultuur projecten.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
+Voor het bouwen van deze pagina heb ik gebruik gemaakt van HTML, CSS en een klein beetje JavaScript voor de interactie. 
 
 ## Licentie
 
