@@ -20,6 +20,15 @@ body{
    color: var(--secondary);
 }
 
+header > img{
+   max-width: 12rem;
+   padding-left: 1.5rem;
+}
+
+header > nav{
+   display: none;
+}
+
 h2{
    font-family: 'Saira', sans-serif;
    font-size: 1.875rem;
@@ -59,6 +68,10 @@ section{
 
 
 /* PAGE 1 */
+
+.main-front-image > img{
+   width: 100vw;
+}
 
 .bg-light-blue-circle{
    position: absolute;
@@ -309,6 +322,36 @@ section{
 
  @media (min-width:45rem){
 
+   header{
+      display: flex;
+      justify-content: space-between;
+      padding-right: 5rem;
+   }
+
+   header > img{
+      max-width: 15rem;
+      padding-left: 5rem;
+   }
+
+   header > nav{
+      display: flex;
+      flex-direction: column;
+      padding-top: 4.5rem;
+   }
+
+   header ul{
+      display: flex;
+      gap: 3rem;
+      font-family: 'Saira', sans-serif;
+      list-style-type: none;
+   }
+
+   header a{
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 1rem;
+   }
+
    section{
       padding: 2rem 3rem 1rem 5rem;
    }
@@ -329,6 +372,17 @@ section{
    p{
       font-size: 1.25rem;
       line-height: 2.5rem;
+   }
+
+   .main-front-image{
+      height: 30rem;
+      padding-bottom: 5rem;
+   }
+
+   .main-front-image > img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
    }
 
    .bg-light-blue-circle{
@@ -362,6 +416,21 @@ section{
 
 @media (min-width:60rem){
 
+   header{
+      padding-right: 12rem;
+   }
+
+   header > img{
+      max-width: 22rem;
+      padding-left: 12rem;
+   }
+
+   header a{
+      text-decoration: none;
+      font-weight: 100;
+      font-size: 1.25rem;
+   }
+
    section{
       padding: 4rem 5rem 2rem 12rem;
    }
@@ -384,6 +453,17 @@ section{
       line-height: 2.5rem;
    }
 
+   .main-front-image{
+      height: 40rem;
+      padding-bottom: 5rem;
+   }
+
+   .main-front-image > img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+
    .con-offer-jobs{
       padding: 0;
       margin-left: 12rem;
@@ -402,6 +482,10 @@ section{
 
    .con-process,.con-why-us{
       padding: 2rem 5rem 4rem 12rem
+   }
+
+   .con-top-head > nav{
+      padding-top: 3rem;
    }
 
    .con-top-head > img{
@@ -453,6 +537,25 @@ section{
 
 @media (min-width:80rem){
 
+   header{
+      padding-right: 20rem;
+      margin-bottom: -5rem;
+   }
+
+   header > img{
+      max-width: 30rem;
+      padding-left: 20rem;
+   }
+
+   header ul{
+      gap: 5rem;
+   }
+
+   header a{
+      text-decoration: none;
+      font-size: 1.25rem;
+   }
+
    section{
       padding: 8rem 10rem 4rem 20rem;
    }
@@ -473,6 +576,19 @@ section{
    p{
       font-size: 1.25rem;
       line-height: 2.5rem;
+   }
+
+   .main-front-image{
+      width: 100%;
+      height: 40rem;
+      overflow: hidden;
+   }
+
+   .main-front-image > img{
+      width: 100%;
+      height: 50rem;
+      object-fit: cover;
+
    }
 
    .con-offer-jobs{
@@ -497,6 +613,10 @@ section{
 
    .con-top-head{
       margin-bottom: -8rem;
+   }
+
+   .con-top-head > nav{
+      padding-top: 10rem;
    }
 
    .con-top-head > div > img{
