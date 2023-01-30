@@ -2,6 +2,8 @@
 
 Een vacature-detailpagina voor de website van Avocado Media waar de gebruiker meer informatie kan vinden over de voorwaarden, werkzaamheden en taken.
 
+![tablet_laptop_and_smartphone_mockup_avocadomedia](https://user-images.githubusercontent.com/112861375/214558395-d8f02a31-2d93-43a2-90d3-3f0bfca0b640.png)
+
 ## Beschrijving
 
 **De website bestaat uit:**
@@ -16,8 +18,6 @@ Een vacature-detailpagina voor de website van Avocado Media waar de gebruiker me
   - Sollicitatieproces
 
 De huisstijl elementen zijn op de juiste manier toegepast en de pagina bevat een formulier waar de gebruiker kan solliciteren op de desbetreffende functie. Ook is de pagina volledig responsive.
-
-![tablet_laptop_and_smartphone_mockup_avocadomedia](https://user-images.githubusercontent.com/112861375/214558395-d8f02a31-2d93-43a2-90d3-3f0bfca0b640.png)
 
 
 ## De opdrachtgever
